@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /> <!-- Karakter setini UTF-8 olarak ayarlar -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Mobil cihazlar için sayfa genişliği ayarı -->
+    <link rel="stylesheet" href="styles.css" /> <!-- Harici CSS dosyasını bağlar -->
+    <title>Sport Center</title> <!-- Sayfanın başlık kısmı -->
+  </head>
+  <body>
+    <header>
+      <nav class="navbar-container"> <!-- Navbar kapsayıcı div -->
+        <div class="logo">
+          <img src="images/logo.png" alt="band" /> <!-- Logo resmi -->
+        </div>
+        <input type="checkbox" class="menu-btn" id="menu-btn" /> <!-- Menü butonu için checkbox -->
+        <label for="menu-btn" class="menu-icon"> <!-- Menü ikonu için label -->
+          <span class="menu-hmbgr"></span> <!-- Hamburger menü simgesi -->
+        </label>
+        <div class="bar"> <!-- Menü bağlantıları -->
+          <a href="#home">Home</a> <!-- Ana sayfa bağlantısı -->
+          <a href="#classes">Classes</a> <!-- Sınıflar sayfası bağlantısı -->
+          <a href="#trainer">Trainer</a> <!-- Eğitmenler sayfası bağlantısı -->
+          <a href="#review">Review</a> <!-- İnceleme sayfası bağlantısı -->
+          <a href="#contact">Contact</a> <!-- İletişim sayfası bağlantısı -->
+          <button class="join-btn"> <!-- Üye olma butonu -->
+            <a href="#joinus">JOIN US</a> <!-- Üye olma sayfası bağlantısı -->
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Ana bölüm -->
+    <section id="home" class="home"> <!-- Ana sayfa bölümü -->
+      <div class="home-container"> <!-- İçerikleri kapsayan div -->
+        <div class="container"> <!-- İçerik hizalama için kullanılan div -->
+          <h6 class="power"><p>POWERFULL</p></h6> <!-- Güçlü metni -->
+          <h1>Group <br/>Practice<br />With Trainer</h1> <!-- Ana başlık -->
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus odit aut iste. Velit porro rerum, unde modi ipsam
+            exercitationem laudantium illum. Id, laborum? Totam, dicta nisi.
+            Voluptates, vero id. Perferendis.Velit porro rerum, unde modi ipsam
+            exercitationem laudantium illum. Id, laborum? Totam, dicta nisi.
+            Voluptates, vero id. Perferendis.
+          </p> <!-- Açıklama metni -->
+        </div>
+        <div class="home-buttons"> <!-- Butonlar -->
+          <button class="sign">Sign Up</button> <!-- Kayıt ol butonu -->
+          <button class="details">Details</button> <!-- Detaylar butonu -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Flex Container Stats -->
+    <div class="flex-container"> <!-- İstatistikler bölümü -->
+      <div>
+        <p>325<br /><span>Course</span></p> <!-- Kurs sayısı -->
+      </div>
+      <div>
+        <p>405<br /><span>Work Out</span></p> <!-- Egzersiz sayısı -->
+      </div>
+      <div>
+        <p>305<br /><span>Working Hour</span></p> <!-- Çalışma saatleri -->
+      </div>
+      <div>
+        <p>705<br /><span>Happy Client</span></p> <!-- Mutlu müşteri sayısı -->
+      </div>
+    </div>
+
+    <!-- Sınıflar bölümü -->
+    <section class="classes" id="classes"> <!-- Sınıflar bölümü -->
+      <div class="class-container"> <!-- Sınıf içeriklerini kapsayan div -->
+        <div class="bg-shape"></div> <!-- Arka plan şekli -->
+        <h2>OUR CLASSES</h2> <!-- Sınıflar başlığı -->
+        <div class="line"></div> <!-- Başlık altı çizgi -->
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus odit aut iste. Amet consectetur adipisicing elit
+        </p> <!-- Sınıflar hakkında açıklama metni -->
+        <div class="button-container"> <!-- Sınıf butonları -->
+          <button id="yoga">Yoga</button> <!-- Yoga sınıfı butonu -->
+          <button id="group">Group</button> <!-- Grup egzersizi butonu -->
+          <button id="solo">Solo</button> <!-- Solo egzersizi butonu -->
+          <button id="stretch">Stretching</button> <!-- Esneme egzersizi butonu -->
+        </div>
+        <div id="features-container"> <!-- Özellikler bölümünün içerik alanı -->
+          <div>
+            <h6>Why Are Your Yoga?</h6> <!-- Yoga hakkındaki başlık -->
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In, nihil
+              recusandae. Atque, illum corporisodio pariatur ad harum non,
+              molestias maiores molestiae sapiente perferendis veniam earum
+              fugit ipsum repellendus architecto ducimus explicabo reiciendis
+              alias quasi culpa libero amet similique nisi!
+            </p> <!-- Yoga açıklaması -->
+            <h6>When comes Yoga Your Time?</h6> <!-- Yoga zamanları başlığı -->
+            <p>Saturday-Sunday: 8:00am - 10:000am</p> <!-- Cumartesi-Pazar yoga saati -->
+            <p>Monday-Tuesday: 8:00am - 10:000am</p> <!-- Pazartesi-Salı yoga saati -->
+            <p>Wednesday-Friday: 8:00am - 10:000am</p> <!-- Çarşamba-Cuma yoga saati -->
+          </div>
+          <img src="images/yoga.jpg" /> <!-- Yoga sınıfı resmi -->
+        </div>
+      </div>
+    </section>
+
+    <!-- BMI hesaplama bölümü -->
+    <div class="bmi-container"> <!-- BMI bölümünün kapsayıcı divi -->
+      <div class="calculate-container"> <!-- BMI hesaplama formunu içerir -->
+        <h1>BMI Calculator</h1> <!-- Başlık -->
+        <p>
+          A higher BMI increases the chance of developing long-term conditions,
+          such as type 2 diabetes and heart disease.The BMI calculation is just
+          one measure of health.<br /><br />
+          It cannot tell the difference between muscle and fat. For example, if
+          you have a lot of muscle, you may be classed as overweight or obese
+          despite having low body fat.This is why you may get a better idea of
+          your overall health from measuring your waist.
+        </p> <!-- BMI hakkında bilgi -->
+        <input id="height" type="text" placeholder="Your Height" /> <!-- Boy girişi -->
+        <input id="weight" type="text" placeholder="Your Weight" /> <!-- Kilo girişi -->
+      </div>
+      <div class="img-container"> <!-- BMI sonucunun gösterileceği alan -->
+        <h4>Your BMI</h4> <!-- Başlık -->
+        <img src="images/bmi-index.jpg" /> <!-- BMI gösterge resmi -->
+        <div class="triangle"></div> <!-- Üçgen BMI göstergesi -->
+      </div>
+    </div>
+
+    <!-- Eğitmenler bölümü -->
+    <section class="trainer" id="trainer"> <!-- Eğitmenler bölümü -->
+      <div class="trainer-container"> <!-- Eğitmen bilgilerini içerir -->
+        <h2>OUR BEST TRAINERS</h2> <!-- Eğitmenler başlığı -->
+        <div class="line"></div> <!-- Başlık altı çizgi -->
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus odit aut iste. Amet consectetur adipisicing elit
+        </p> <!-- Eğitmenlerle ilgili açıklama metni -->
+        <div class="trainers-container"> <!-- Eğitmen portföyleri -->
+          <div class="trainer-portfolio"> <!-- Eğitmen 1 portföyü -->
+            <img src="images/trainer1.jpg" /> <!-- Eğitmen 1 resmi -->
+            <div class="trainer-layer"> <!-- Eğitmen 1 bilgileri -->
+              <h4>Esra ÜNAL</h4> <!-- Eğitmen 1 adı -->
+              <p>Pilates Trainer</p> <!-- Eğitmen 1 uzmanlık alanı -->
+            </div>
+          </div>
+          <div class="trainer-portfolio"> <!-- Eğitmen 2 portföyü -->
+            <img src="images/trainer2.jpg" /> <!-- Eğitmen 2 resmi -->
+            <div class="trainer-layer"> <!-- Eğitmen 2 bilgileri -->
+              <h4>Yakup Eren ERMURAT</h4> <!-- Eğitmen 2 adı -->
+              <p>Functional Trainer</p> <!-- Eğitmen 2 uzmanlık alanı -->
+            </div>
+          </div>
+          <div class="trainer-portfolio"> <!-- Eğitmen 3 portföyü -->
+            <img src="images/trainer3.jpg" /> <!-- Eğitmen 3 resmi -->
+            <div class="trainer-layer"> <!-- Eğitmen 3 bilgileri -->
+              <h4>Fatma ÇAKIR</h4> <!-- Eğitmen 3 adı -->
+              <p>Cardio Trainer</p> <!-- Eğitmen 3 uzmanlık alanı -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Satın alma bölümü -->
+    <div class="purchase"> <!-- Satın alma kapsayıcı divi -->
+      <div class="purchase-container"> <!-- Satın alma bilgileri -->
+        <h2>PURCHASE FROM US</h2> <!-- Satın alma başlığı -->
+        <div class="line"></div> <!-- Başlık altı çizgi -->
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus odit aut iste. Amet consectetur adipisicing elit
+        </p> <!-- Satın alma açıklama metni -->
+        <div class="equipment-container"> <!-- Ürün kartları -->
+          <div class="equipment-card"> <!-- Ürün 1 kartı -->
+            <img src="images/purchase1.jpg" /> <!-- Ürün 1 resmi -->
+            <div class="card-layer"> <!-- Ürün 1 bilgileri -->
+              <h4>Kettlebell / 5kg</h4> <!-- Ürün adı -->
+              <p><span>89,99$</span>/ 59,99$</p> <!-- Ürün fiyatı -->
+              <p><i class="fa-cart-shopping"></i>Add To Cart</p> <!-- Sepete ekle butonu -->
+            </div>
+          </div>
+          <div class="equipment-card"> <!-- Ürün 2 kartı -->
+            <img src="images/purchase2.jpg" /> <!-- Ürün 2 resmi -->
+            <div class="card-layer"> <!-- Ürün 2 bilgileri -->
+              <h4>Treadmill / 5kg</h4> <!-- Ürün adı -->
+              <p><span>899,99$</span>/ 599,99$</p> <!-- Ürün fiyatı -->
+              <p><i class="fa-cart-shopping"></i>Add To Cart</p> <!-- Sepete ekle butonu -->
+            </div>
+          </div>
+          <div class="equipment-card"> <!-- Ürün 3 kartı -->
+            <img src="images/purchase4.jpg" /> <!-- Ürün 3 resmi -->
+            <div class="card-layer"> <!-- Ürün 3 bilgileri -->
+              <h4>Adjustable Dumbbell</h4> <!-- Ürün adı -->
+              <p><span>89,99$</span>/ 59,99$</p> <!-- Ürün fiyatı -->
+              <p><i class="fa-cart-shopping"></i>Add To Cart</p> <!-- Sepete ekle butonu -->
+            </div>
+          </div>
+          <div class="equipment-card"> <!-- Ürün 4 kartı -->
+            <img src="images/purchase3.jpg" /> <!-- Ürün 4 resmi -->
+            <div class="card-layer"> <!-- Ürün 4 bilgileri -->
+              <h4>KettleBell / 3kg</h4> <!-- Ürün adı -->
+              <p><span>899,99$</span>/ 599,99$</p> <!-- Ürün fiyatı -->
+              <p><i class="fa-cart-shopping"></i>Add To Cart</p> <!-- Sepete ekle butonu -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Müşteri yorumları bölümü -->
+    <section class="review" id="review"> <!-- İnceleme bölümü -->
+      <div class="review-container"> <!-- Yorumları içeren div -->
+        <h2>REVIEW CLIENT</h2> <!-- Müşteri yorumları başlığı -->
+        <div class="line"></div> <!-- Başlık altı çizgi -->
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus odit aut iste. Amet consectetur adipisicing elit
+        </p> <!-- Açıklama metni -->
+        <div class="client-container"> <!-- Müşteri yorumları divi -->
+          <div class="review"> <!-- Yorum 1 -->
+            <div class="client"> <!-- Müşteri bilgileri -->
+              <img src="images/client1.jpg" /> <!-- Müşteri 1 resmi -->
+              <p><span>Diet Expert</span><br />CFO</p> <!-- Müşteri 1 unvanı -->
+            </div>
+            <div class="comment"> <!-- Yorum metni -->
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                nihil recusandae. Atque, illum corporisodio pariatur ad harum
+                non, molestias maiores molestiae sapiente perferendis veniam
+                earum fugit ipsum repellendus architecto ducimus explicabo
+                reiciendis alias quasi culpa libero amet similique nisi!
+              </p> <!-- Yorum açıklama metni -->
+            </div>
+          </div>
+          <div class="review"> <!-- Yorum 2 -->
+            <div class="client"> <!-- Müşteri bilgileri -->
+              <img src="images/client2.jpg" /> <!-- Müşteri 2 resmi -->
+              <p><span>Cardio Trainer</span><br />CEO</p> <!-- Müşteri 2 unvanı -->
+            </div>
+            <div class="comment"> <!-- Yorum metni -->
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                nihil recusandae. Atque, illum corporisodio pariatur ad harum
+                non, molestias maiores molestiae sapiente perferendis veniam
+                earum fugit ipsum repellendus architecto ducimus explicabo
+                reiciendis alias quasi culpa libero amet similique nisi!
+              </p> <!-- Yorum açıklama metni -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- İletişim bölümü -->
+    <section class="contact" id="contact"> <!-- İletişim bölümü -->
+      <div class="contact-container"> <!-- İletişim bilgilerini kapsayan div -->
+        <h2>CONTACT US</h2> <!-- İletişim başlığı -->
+        <div class="line"></div> <!-- Başlık altı çizgi -->
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus odit aut iste. Amet consectetur adipisicing elit
+        </p> <!-- İletişim açıklama metni -->
+        <div class="message-container"> <!-- Mesaj ve iletişim formu bölümü -->
+          <div class="phone-container"> <!-- Telefon ve e-posta bilgileri -->
+            <h6>
+              Mobile Number &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email
+              Address
+            </h6> <!-- Mobil numara ve e-posta başlığı -->
+            <span>+135 773 321 4442&nbsp; &nbsp; &nbsp;demo@demo.com</span> <!-- Telefon ve e-posta -->
+            <div class="input-container"> <!-- Randevu formu -->
+              <h3>Make An Appointment</h3> <!-- Randevu başlığı -->
+              <input type="text" placeholder="Your Name" id="textname"/> <!-- Ad input alanı -->
+              <input type="email" placeholder="Your Email" id="ymail"/> <!-- E-posta input alanı -->
+              <textarea
+                rows="5"
+                cols="50"
+                name="text"
+                placeholder="Your Message"
+              ></textarea> <!-- Mesaj input alanı -->
+            </div>
+          </div>
+          <div class="googleMap"> <!-- Harita alanı -->
+            <iframe
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border: 0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.7997403084178!2d29.200703299999997!3d41.0077562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cacfe1004cef1d%3A0x5de3725c7732823e!2sMACFit%20%C3%87amsan%20Park!5e0!3m2!1str!2str!4v1727951343766!5m2!1str!2str"
+            allowfullscreen
+          >
+          </iframe> <!-- Google Haritası iframe -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer bölümü -->
+    <footer>
+      <div class="footer"> <!-- Footer kapsayıcı divi -->
+        <div class="logo"> <!-- Footer logosu -->
+          <img src="images/logo.png" alt="band" />
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus odit aut iste. Amet consectetur adipisicing elit.ipsum
+          dolor sit amet consectetur adipisicing elit. Necessitatibus odit aut
+          iste. Amet consectetur adipisicing elit
+        </p> <!-- Footer açıklama metni -->
+        <div class="footer-container"> <!-- Footer içerik bölümü -->
+          <div class="info"> <!-- Bilgilendirme bağlantıları -->
+            <h3>Information</h3>
+            <a href="#">About Us</a> <!-- Hakkımızda bağlantısı -->
+            <a href="#">Classes</a> <!-- Sınıflar bağlantısı -->
+            <a href="#">Blog</a> <!-- Blog bağlantısı -->
+            <a href="#">Contact</a> <!-- İletişim bağlantısı -->
+          </div>
+          <div class="links"> <!-- Yardımcı bağlantılar -->
+            <h3>Helpful Links</h3>
+            <a href="#">Services</a> <!-- Hizmetler bağlantısı -->
+            <a href="#">Supports</a> <!-- Destekler bağlantısı -->
+            <a href="#">Terms & Condition</a> <!-- Şartlar bağlantısı -->
+            <a href="#">Privacy Policy</a> <!-- Gizlilik politikası bağlantısı -->
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript dosyasını bağlar -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
