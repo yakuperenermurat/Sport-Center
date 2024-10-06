@@ -5,7 +5,7 @@ Bu proje, bir **Spor Merkezi** web sitesini temsil eder. Kullanıcılar, spor s�
 ## Live Site
 Proje, Netlify üzerinden canlıya alınmıştır. Aşağıdaki bağlantıdan projeyi inceleyebilirsiniz:
 
-[Canlı Site](https://your-netlify-site-link.netlify.app)
+[Canlı Site](https://cheery-creponne-70c988.netlify.app)
 
 ## Projenin Özeti
 Spor Merkezi web sitesi, bir spor merkezinin tanıtımını yapmak ve potansiyel müşterilere bilgi sağlamak için oluşturulmuştur. Ziyaretçiler, farklı spor sınıflarını keşfedebilir, eğitmenler hakkında bilgi alabilir, vücut kitle indekslerini (BMI) hesaplayabilir ve iletişim formu ile merkeze ulaşabilirler. Proje, duyarlı (responsive) bir tasarım kullanılarak farklı cihazlara uyumlu olacak şekilde optimize edilmiştir.
@@ -31,4 +31,4 @@ Spor Merkezi web sitesi, bir spor merkezinin tanıtımını yapmak ve potansiyel
 
 1. **Depoyu Klonlayın**:
    ```bash
-   git clone https://github.com/kullanici-adi/spor-merkezi-web.git
+   git clone https://github.com/yakuperenermurat/Sport-Center.git
