@@ -117,6 +117,33 @@ nav {
   padding: 1rem; /* İçerik etrafına boşluk */
   margin-top: 1px; /* Üst boşluk */
 }
+.home-buttons {
+  display: flex; /* İçindeki öğeleri yatay olarak düzenlemek için flexbox kullanır */
+  gap: 1.5rem; /* Butonlar arasındaki boşluk miktarını ayarlar */
+}
+
+.sign {
+  background-color: #355592; /* Butonun arka plan rengini ayarlar */
+  border-radius: 4px; /* Butonun köşelerini yuvarlar */
+  border: none; /* Butonun sınırını kaldırır */
+  width: 7rem; /* Butonun genişliğini ayarlar */
+  height: 3rem; /* Butonun yüksekliğini ayarlar */
+  color: var(--text-color); /* Buton metninin rengini root değişkeninden alır */
+  font-size: 20px; /* Buton metninin boyutunu ayarlar */
+  font-weight: 800; /* Metni kalınlaştırır */
+}
+
+.details {
+  border-radius: 4px; /* Butonun köşelerini yuvarlar */
+  border: 2px solid white; /* Beyaz renkte bir kenarlık ekler */
+  background-color: rgba(0, 0, 0, 0.5); /* Yarı saydam bir arka plan rengi ayarlar */
+  height: 3rem; /* Butonun yüksekliğini ayarlar */
+  width: 7rem; /* Butonun genişliğini ayarlar */
+  color: var(--text-color); /* Buton metninin rengini root değişkeninden alır */
+  font-size: 20px; /* Buton metninin boyutunu ayarlar */
+  font-weight: 700; /* Metni kalınlaştırır */
+  margin-left: 2rem; /* Butona sol taraftan boşluk bırakır */
+}
 
 /* Stats Boxes */
 .flex-container {
@@ -748,7 +775,6 @@ footer {
 
 .details {
     margin-left: 0; /* Sol boşluk kaldırılır */
-    margin-top: 0.5rem; /* Üst boşluk */
     display: block; /* Tam genişlik gösterimi */
     width: 100%; /* Genişlik */
 }
